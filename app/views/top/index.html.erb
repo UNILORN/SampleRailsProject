@@ -9,5 +9,8 @@
 <body>
     <h1>Hello World!</h1>
     <h2>よおこそ <%= @name %> 様</h2>
+    <% @books.each do |book| %>
+        <p> <%= book.name %> </p>
+    <% end %>
 </body>
 </html>

@@ -1,6 +1,7 @@
 class TopController < ApplicationController
 
     def index
-        @name = 'aoki'
+        @name = '名無し'
+        @books = Book.all
     end
 end

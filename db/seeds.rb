@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Book.create(:name => '書籍1')
+Book.create(:name => '書籍2')
+Book.create(:name => '書籍3')
+Book.create(:name => '書籍4')

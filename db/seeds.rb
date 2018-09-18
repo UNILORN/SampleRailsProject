@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Book.create(:name => '書籍1')
-Book.create(:name => '書籍2')
-Book.create(:name => '書籍3')
-Book.create(:name => '書籍4')
+Book.create(:name => '書籍1',:description => 'この本はほげです',:stock => 40)
+Book.create(:name => '書籍2',:description => 'この本はぴよです',:stock => 10)
+Book.create(:name => '書籍3',:description => 'この本ほげたろう',:stock => 55)
+Book.create(:name => '書籍4',:description => '探してたあの本です',:stock => 3)

@@ -1,0 +1,22 @@
+<div class="container">
+    <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+        <thead>
+            <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Stock</th>
+            <th>Desc</th>
+            </tr>
+        </thead>
+        <tbody>
+        <% @books.each do |book| %>
+            <tr>
+                <td><%= book.name %></td>
+                <td><%= book.description %></td>
+                <td><%= book.stock %></td>
+                <td><a class="button is-link" href="/books/<%= book.id %>">No:<%= book.id %></a></td>
+            </tr>
+        <% end %>
+        </tbody>
+    </table>
+</div>
